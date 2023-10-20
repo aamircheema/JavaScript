@@ -36,6 +36,6 @@ function greet() {
   console.log("Hello Wordl!");
 }
 
-sayHi();
+sayHi(); // ReferenceError: Cannot access 'sayHi' before initialization
 
 let sayHi = () => console.log("Hello World!");
